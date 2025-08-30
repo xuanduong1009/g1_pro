@@ -1,0 +1,19 @@
+# Checkpoints / models / logs
+runs_g1_mj_safe/
+runs*/**
+*.zip
+*.pkl
+*.pt
+*.onnx
+*.pth
+*.ckpt
+*.tfevents
+
+# Nhưng vẫn giữ lại file cấu hình yaml
+!configs/**/*.yaml
+!configs/*.yaml
+
+# IDE / cache
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
