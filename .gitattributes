@@ -1,0 +1,7 @@
+runs_g1_mj_safe/**/*.zip filter=lfs diff=lfs merge=lfs -text
+runs_g1_mj_safe/**/*.pkl filter=lfs diff=lfs merge=lfs -text
+runs_g1_mj_safe/**/*.pt filter=lfs diff=lfs merge=lfs -text
+runs_g1_mj_safe/**/*.onnx filter=lfs diff=lfs merge=lfs -text
+runs_g1_mj_safe/**/*.pth filter=lfs diff=lfs merge=lfs -text
+runs_g1_mj_safe/**/*.ckpt filter=lfs diff=lfs merge=lfs -text
+runs_g1_mj_safe/**/*.tfevents filter=lfs diff=lfs merge=lfs -text
